@@ -12,13 +12,13 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ### Level 1 (4 pts)
 
-_____ 1 pt: All classes, methods, and attributes are named as requested in the assignment specifications
+yes 1 pt: All classes, methods, and attributes are named as requested in the assignment specifications
 
-_____ 1 pt: The `Engine` class contains appropriately-encapsulated attributes to store information about its fuel type, capacity, and current level
+yes 1 pt: The `Engine` class contains appropriately-encapsulated attributes to store information about its fuel type, capacity, and current level
 
-_____ 1 pt: The `Engine` class has a functional constructor
+yes 1 pt: The `Engine` class has a functional constructor
 
-_____ 1 pt: The `Engine` class has `refuel()` and `go()` methods that correctly modify the fuel level
+yes 1 pt: The `Engine` class has `refuel()` and `go()` methods that correctly modify the fuel level
 
 ### Level 2 (3 pts)
 
@@ -40,22 +40,21 @@ _____ 1 pt: The `Train` class has all expected methods, making use of methods fr
 
 ## General Items:
 
-_____ 4 pts: Programs compile without errors or warnings
+no 4 pts: Programs compile without errors or warnings
 
-_____ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+no 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_____ 2 pt: Complies with style guidelines (missing items 1 pt each):
+yes 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      _____ Classes & class members all have Javadoc header comments
+     yes Classes & class members all have Javadoc header comments
 
-      _____ Clear and consistent indentation of bracketed sections
+      yes Clear and consistent indentation of bracketed sections
 
-      _____ Adheres to Java conventions on naming & capitalization
+      yes Adheres to Java conventions on naming & capitalization
 
-      _____ Methods & variables all have clear and accurate names
+      yes Methods & variables all have clear and accurate names
 
-      _____ Methods avoid confusing side effects
+      yes Methods avoid confusing side effects
 
-_____ 1 pt: All required files included with submission (including completed `rubric.md` file)
-
-_____ 1 pt: `reflection.md` contains your reflection on the assignment
+yes 1 pt: All required files included with submission (including completed `rubric.md` file)
+yes 1 pt: `reflection.md` contains your reflection on the assignment
