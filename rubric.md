@@ -22,27 +22,27 @@ yes 1 pt: The `Engine` class has `refuel()` and `go()` methods that correctly mo
 
 ### Level 2 (3 pts)
 
-_____ 1 pt: The `Car` class contains appropriately-encapsulated attributes to store information about its capacity and current `Passenger`s
+yes 1 pt: The `Car` class contains appropriately-encapsulated attributes to store information about its capacity and current `Passenger`s
 
-_____ 1 pt: The `Car` class has functional `addPassenger(...)` and `removePassenger(...)` methods
+yes 1 pt: The `Car` class has functional `addPassenger(...)` and `removePassenger(...)` methods
 
-_____ 1 pt: The `Car` class has a `printManifest()` method that prints a nicely-formatted roster of all `Passenger`s currently aboard the car
+yes 1 pt: The `Car` class has a `printManifest()` method that prints a nicely-formatted roster of all `Passenger`s currently aboard the car
 
 ### Level 3 (3 pts)
 
-_____ 1 pt: The `Passenger` class uses appropriate methods from the `Car` class to implement its `boardCar(...)` and `getOffCar(...)` methods
+yes 1 pt: The `Passenger` class uses appropriate methods from the `Car` class to implement its `boardCar(...)` and `getOffCar(...)` methods
 
-_____ 1 pt: The `Train` class has all expected attributes / relationships with the other classes
+yes 1 pt: The `Train` class has all expected attributes / relationships with the other classes
 
-_____ 1 pt: The `Train` class has all expected methods, making use of methods from other classes as appropriate
+yes 1 pt: The `Train` class has all expected methods, making use of methods from other classes as appropriate
 
 
 
 ## General Items:
 
-no 4 pts: Programs compile without errors or warnings
+yes 4 pts: Programs compile without errors or warnings
 
-no 2 pts: Executes fully & consistently without crashing (exception/freeze)
+yes 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
 yes 2 pt: Complies with style guidelines (missing items 1 pt each):
 
