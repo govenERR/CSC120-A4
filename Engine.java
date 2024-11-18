@@ -35,6 +35,7 @@ public class Engine {
     public boolean go() {
         double current = getFuel();
         while (current > 0) {
+            current = getFuel();
             System.out.println("TRUE");
             setFuel(current - 1);
             System.out.println("There is " + getFuel() + " fuel remaining");
@@ -42,11 +43,16 @@ public class Engine {
             System.out.println("FALSE");
             return false;
     }
-}
-public static void main(String[] args) {
-    Engine myEngine = new Engine(FuelType.ELECTRIC, 100.0);
-    while (myEngine.go()) {
-        System.out.println("Choo choo!");
+    public static void main(String[] args) {
+        Engine myEngine = new Engine(FuelType.ELECTRIC, 100);
+        while (myEngine.go()) {
+            System.out.println("Choo choo!");
+        }
+        System.out.println("Out of fuel.");
+        myEngine.refuel();
+        System.out.println(myEngine.getFuel());
+        System.out.println(myEngine.getMaxFuel());
+        System.out.println(myEngine.getFuelType());
+        System.out.println("is it updating?");
     }
-    System.out.println("Out of fuel.");
 }
